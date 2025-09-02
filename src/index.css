@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn { @apply px-3 py-2 rounded-xl font-medium bg-blue-600 text-white hover:bg-blue-700 transition; }
+  .btn-danger { @apply px-3 py-2 rounded-xl font-medium bg-red-600 text-white hover:bg-red-700 transition; }
+  .input { @apply px-3 py-2 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400; }
+  .card { @apply border border-gray-200 rounded-2xl p-4 shadow-sm; }
+}
